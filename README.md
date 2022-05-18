@@ -1,7 +1,7 @@
 # API calculadora
 
 Autores: 
-*Julia 
-*Micaele
-*Leonardo
-*Gabriel
+*Julia Eloizi   
+*Micaele Rayanne
+*Leonardo Brito
+*Gabriel Souza
