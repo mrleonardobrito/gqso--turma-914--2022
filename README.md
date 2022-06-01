@@ -1,5 +1,11 @@
 # API calculadora
 
+Autores: 
+*Julia Eloizi   
+*Micaele Rayanne
+*Leonardo Brito
+*Gabriel Souza
+
 commit feito pelo gabriel almeida
 ## Colaboradores
 
