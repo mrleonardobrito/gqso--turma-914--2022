@@ -1,3 +1,15 @@
+
+
+#API CALCULADORA
+Autores: 
+- Julia
+- Micaele
+- Leonardo
+- Gabriel
+Vamos adicionar posteriormente os codigos de soma!!
+# API calculadora
+
+
 # API calculadora
 
 Autores: 
@@ -16,3 +28,4 @@ commit feito pelo gabriel almeida
 
 Fim
  
+
