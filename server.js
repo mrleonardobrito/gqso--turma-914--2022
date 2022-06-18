@@ -1,7 +1,7 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 
-const PORT = process.env.PORT
+const PORT = process.env.PORT;
 
 app.get('/multiplicacao/:n1/:n2', (req, res) => {
     const n1 = +req.params.n1
@@ -12,8 +12,12 @@ app.get('/multiplicacao/:n1/:n2', (req, res) => {
     }
 
     res.status(200).json({ resultado: n1*n2 })
+}
+        
+app.get('/', (req, res) => {
+    res.status(200).send('Hello World!!!');
 })
 
 app.listen(PORT, () => {
-    console.log(`Server listening to the port ${PORT}`)
+    console.log(`Server listening to the port ${PORT}`);
 })
