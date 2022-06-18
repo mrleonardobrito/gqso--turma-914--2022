@@ -1,0 +1,27 @@
+{
+  "name": "gqso--turma-914--2022",
+  "version": "1.0.0",
+  "description": "Autores:  - Julia - Micaele - Leonardo - Gabriel Vamos adicionar posteriormente os codigos de soma!! # API calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrleonardobrito/gqso--turma-914--2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrleonardobrito/gqso--turma-914--2022/issues"
+  },
+  "homepage": "https://github.com/mrleonardobrito/gqso--turma-914--2022#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
