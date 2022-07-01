@@ -15,6 +15,6 @@ app.get('/subtracao/:n1/:n2', (req, res) => {
     res.status(200).json({ resultado: n1-n2 })
 })
 
-app.listen(PORT, () => {
+app.get('/subtracao/:n1/:n2', (req, res) =>  {
     console.log(`Server listening to the port ${PORT}`);
 })
