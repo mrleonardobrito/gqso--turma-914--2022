@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 // multiplicação
-app.get('/subtracao/:n1/:n2', (req, res) => {
+app.get('/multiplicacao/:n1/:n2', (req, res) => {
     const n1 = +req.params.n1
     const n2 = +req.params.n2
 
@@ -12,7 +12,7 @@ app.get('/subtracao/:n1/:n2', (req, res) => {
         res.status(400).send('Sorry we cannot complete the operation please send a number on the request subtracao')
     }
 
-    res.status(200).json({ resultado: n1-n2 })
+    res.status(200).json({ resultado: n1*n2 })
 })
 
 app.listen(PORT, () => {
