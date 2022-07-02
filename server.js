@@ -24,7 +24,7 @@ app.get('/subtracao/:n1/:n2', (req, res) => {
         res.status(400).send('Sorry we cannot complete the operation please send a number on the request subtracao');
     }
 
-    res.status(200).json({ resultado: n1-n2 })
+    res.status(200).json({ resultado: n1-n2 });
 })
 
 app.listen(PORT, () => {
