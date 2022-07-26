@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658842265467" clover="3.2.0">
-  <project timestamp="1658842265468" name="All files">
-    <metrics statements="27" coveredstatements="19" conditionals="16" coveredconditionals="9" methods="4" coveredmethods="3" elements="47" coveredelements="31" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1"/>
+<coverage generated="1658844420443" clover="3.2.0">
+  <project timestamp="1658844420443" name="All files">
+    <metrics statements="27" coveredstatements="23" conditionals="16" coveredconditionals="12" methods="4" coveredmethods="4" elements="47" coveredelements="39" complexity="0" loc="27" ncloc="27" packages="1" files="1" classes="1"/>
     <file name="app.js" path="/workspace/gqso--turma-914--2022/app.js">
-      <metrics statements="27" coveredstatements="19" conditionals="16" coveredconditionals="9" methods="4" coveredmethods="3"/>
+      <metrics statements="27" coveredstatements="23" conditionals="16" coveredconditionals="12" methods="4" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="5" count="1" type="stmt"/>
@@ -13,11 +13,11 @@
       <line num="10" count="0" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="17" count="1" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="19" count="0" type="stmt"/>
-      <line num="21" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="1" type="cond" truecount="3" falsecount="1"/>
       <line num="22" count="0" type="stmt"/>
-      <line num="25" count="0" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
       <line num="29" count="1" type="stmt"/>
       <line num="30" count="1" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
