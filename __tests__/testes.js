@@ -13,4 +13,10 @@ test('teste soma', async () => {
     expect(res.body).toEqual({resultado: 3})
 })
 
+test('teste subtracao', async () => {
+    const res = await request(app).get('/subtracao/2/1')
+    expect(res.statusCode).toBe(200)
+    expect(res.body).toEqual({resultado: 1})
+})
+
 module.exports = { app }

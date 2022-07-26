@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">85.18% </span>
+                <span class="strong">70.37% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>23/27</span>
+                <span class='fraction'>19/27</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">56.25% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>9/16</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">75% </span>
-                <span class="quiet">Branches</span>
-                <span class='fraction'>12/16</span>
-            </div>
-        
-            
-            <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>3/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">85.18% </span>
+                <span class="strong">70.37% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>23/27</span>
+                <span class='fraction'>19/27</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -114,10 +114,8 @@
 <a name='L49'></a><a href='#L49'>49</a>
 <a name='L50'></a><a href='#L50'>50</a>
 <a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a>
-<a name='L53'></a><a href='#L53'>53</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L52'></a><a href='#L52'>52</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -133,14 +131,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -170,7 +168,6 @@
 <span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">const express = require('express');
 const app = express();
 &nbsp;
-&nbsp;
 // soma
 app.get('/soma/:n1/:n2', (req, res) =&gt; {
     const n1 = +req.params.n1;
@@ -184,15 +181,15 @@ app.get('/soma/:n1/:n2', (req, res) =&gt; {
 })
 &nbsp;
 // multiplicação
-app.get('/multiplicacao/:n1/:n2', (req, res) =&gt; {
-    const n1 = +req.params.n1;
-    const n2 = +req.params.n2;
+app.get('/multiplicacao/:n1/:n2', <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; {
+    const n1 = <span class="cstat-no" title="statement not covered" >+req.params.n1;</span>
+    const n2 = <span class="cstat-no" title="statement not covered" >+req.params.n2;</span>
 &nbsp;
-    <span class="missing-if-branch" title="if path not taken" >I</span>if(isNaN(n1) || isNaN(n2)){
+<span class="cstat-no" title="statement not covered" >    if(isNaN(n1) || isNaN(n2)){</span>
 <span class="cstat-no" title="statement not covered" >        res.status(400).send('Sorry we cannot complete the operation please send a number on the request');</span>
     }
 &nbsp;
-    res.status(200).json({ resultado: n1*n2 })
+<span class="cstat-no" title="statement not covered" >    res.status(200).json({ resultado: n1*n2 })</span>
 })
 &nbsp;
 // subtracao
@@ -226,7 +223,7 @@ module.exports = app</pre></td></tr></table></pre>
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-07-20T14:49:12.059Z
+                at 2022-07-26T13:31:05.453Z
             </div>
         <script src="prettify.js"></script>
         <script>
